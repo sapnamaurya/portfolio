@@ -1,6 +1,6 @@
 .home-sec {
   display: flex;
-  height: 90vh;
+  height: 91vh;
   padding: 0 12% 0 12%;
   font-family: "Roboto", sans-serif;
   align-items: center;
@@ -28,8 +28,9 @@
 }
 .home-sec img {
   height: 59vh;
-  width: 82%;
+  width: 87%;
   border-radius: 50%;
+  box-shadow: 1px 2px 51px 1px grey;
 }
 .home-sec .left p {
   margin: 18px 0;
