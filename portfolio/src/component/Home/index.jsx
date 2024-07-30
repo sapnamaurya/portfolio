@@ -4,7 +4,7 @@ import img from "../../assest/images/sapu img.png";
 const Home = () => {
   return (
     <>
-      <div className="home-sec">
+      <div className=" conatiner home-sec">
         <div className="left">
           <h3>Hi,</h3>
           <h1 className="name">

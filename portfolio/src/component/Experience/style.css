@@ -1,0 +1,25 @@
+.ex-sec {
+  padding: 0 12% 0 12%;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.ex-sec h1 {
+  margin: 20px 0 25px;
+  font-size: 50px;
+}
+.ex-sec .ex-item {
+  border: 1px solid black;
+  margin: auto;
+  width: 80%;
+  background-color: rgb(92 89 89);
+  text-align: center;
+  /* padding: 3px; */
+  margin-bottom: 36px;
+}
+.ex-sec .ex-item .item {
+  padding: 3% 22px;
+}
+.ex-sec .ex-item .item h2 {
+  margin-bottom: 10px;
+}

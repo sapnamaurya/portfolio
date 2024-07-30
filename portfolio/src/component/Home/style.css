@@ -5,6 +5,7 @@
   font-family: "Roboto", sans-serif;
   align-items: center;
   justify-content: space-between;
+  padding: 0 12% 0 12%;
   background-color: #ede9e5e3;
 }
 .home-sec .left {
@@ -27,10 +28,41 @@
   font-size: 42px;
 }
 .home-sec img {
-  height: 59vh;
-  width: 87%;
+  border: 5px solid #dbd1d1;
+  height: 51vh;
+  width: 79%;
   border-radius: 50%;
   box-shadow: 1px 2px 51px 1px grey;
+  animation-name: image;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes image {
+  0% {
+    border-color: rgb(79, 79, 94);
+    transform: translate(0, 0px);
+    box-shadow: 10px 10px 100px 50px rgb(79, 79, 94);
+  }
+  25% {
+    border-color: rgb(116, 132, 143);
+
+    box-shadow: 10px 10px 100px 50px rgb(116, 132, 143);
+  }
+  50% {
+    border-color: rgb(88, 128, 96);
+    transform: translate(0, 10px);
+    box-shadow: 10px 10px 100px 50px rgb(88, 128, 96);
+  }
+  75% {
+    border-color: rgb(97, 124, 88);
+
+    box-shadow: 10px 10px 100px 50px rgb(97, 124, 88);
+  }
+  100% {
+    border-color: rgb(68, 56, 56);
+    transform: translate(0, -0px);
+    box-shadow: 10px 10px 100px 50px rgb(68, 56, 56);
+  }
 }
 .home-sec .left p {
   margin: 18px 0;

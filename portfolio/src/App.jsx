@@ -3,18 +3,15 @@ import "./App.css";
 import Header from "./component/Header";
 import Home from "./component/Home";
 import About from "./component/About";
+import Experience from "./component/Experience";
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/Home" element={<Home />} />
-        </Routes>
-      </BrowserRouter>
+    <div>
       <Header />
       <Home />
       <About />
+      <Experience />
     </div>
   );
 }
