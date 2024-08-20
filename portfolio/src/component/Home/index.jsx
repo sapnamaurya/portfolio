@@ -104,15 +104,15 @@ export const Img = styled.img`
   border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
 
-  @media (max-width: 768px) {
-    max-width: 400px;
-    max-height: 400px;
-  }
+  // @media (max-width: 768px) {
+  //   max-width: 400px;
+  //   max-height: 400px;
+  // }
 
-  @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
-  }
+  // @media (max-width: 640px) {
+  //   max-width: 280px;
+  //   max-height: 280px;
+  // }
 `;
 
 export const Title = styled.div`
@@ -120,15 +120,15 @@ export const Title = styled.div`
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
-  @media (max-width: 960px) {
-    text-align: center;
-  }
+  // @media (max-width: 960px) {
+  //   text-align: center;
+  // }
 
-  @media (max-width: 640px) {
-    font-size: 40px;
-    line-height: 48px;
-    margin-bottom: 8px;
-  }
+  // @media (max-width: 640px) {
+  //   font-size: 40px;
+  //   line-height: 48px;
+  //   margin-bottom: 8px;
+  // }
 `;
 
 export const TextLoop = styled.div`
@@ -138,14 +138,14 @@ export const TextLoop = styled.div`
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
-  @media (max-width: 960px) {
-    text-align: center;
-  }
-  @media (max-width: 640px) {
-    font-size: 22px;
-    line-height: 48px;
-    margin-bottom: 16px;
-  }
+  // @media (max-width: 960px) {
+  //   text-align: center;
+  // }
+  // @media (max-width: 640px) {
+  //   font-size: 22px;
+  //   line-height: 48px;
+  //   margin-bottom: 16px;
+  // }
 `;
 
 export const Span = styled.span`
@@ -159,14 +159,14 @@ export const SubTitle = styled.div`
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
 
-  @media (max-width: 960px) {
-    text-align: center;
-  }
+  // @media (max-width: 960px) {
+  //   text-align: center;
+  // }
 
-  @media (max-width: 640px) {
-    font-size: 16px;
-    line-height: 32px;
-  }
+  // @media (max-width: 640px) {
+  //   font-size: 16px;
+  //   line-height: 32px;
+  // }
 `;
 
 export const ResumeButton = styled.a`
@@ -198,10 +198,10 @@ export const ResumeButton = styled.a`
     }    
     
     
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
+    // @media (max-width: 640px) {
+    //     padding: 12px 0;
+    //     font-size: 18px;
+    // } 
 
 `;
 const Home = () => {
