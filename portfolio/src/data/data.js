@@ -111,7 +111,7 @@ export const skills = [
       },
       {
         name: "Slack",
-        image: "",
+        image: "https://worldvectorlogo.com/logo/slack-new-logo",
       },
       {
         name: "Netlify",
@@ -143,7 +143,23 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "https://www.clipartmax.com/png/small/148-1481002_how-to-create-an-animated-logo-with-svg-and-css-adobe-logo.png",
+    role: "Training of under Senior Software Engineer of Adobe India in Frontend Development",
+    company: "Adobe",
+    skills: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Material UI",
+      "JavaScript",
+      "React JS",
+      "Redux",
+    ],
+    date: "Feb 2023 - July 2023",
+  },
+  {
+    id: 1,
+    img: "https://www.clipartmax.com/png/small/148-1481002_how-to-create-an-animated-logo-with-svg-and-css-adobe-logo.png",
     role: "Part of Adobe's Sr. Software Engineer's freelance team.",
     date: "Aug 2022 - Jan 2023",
 
@@ -157,17 +173,10 @@ export const experiences = [
       "Redux",
     ],
   },
-  {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Training of under Senior Software Engineer of Adobe India in Frontend Development",
-    company: "Adobe",
-    date: "Feb 2023 - July 2023",
-  },
 
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/C4D0BAQFheEbgt4_U_w/company-logo_200_200/0/1661277231688/codeclause_logo?e=1726704000&v=beta&t=WSAgCKNbq1M9eoQtSpiTjVMXVS-u0tkg1lEqlLkzc2Q",
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
     role: "Web Development Intern",
     company: "Code Clause Pvt. Ltd.",
     date: "June 2024 - July 2024",
@@ -182,15 +191,15 @@ export const experiences = [
       "TypeScript",
       " Next Js",
     ],
-    doc: "https://drive.google.com/drive/recent",
+    doc: "https://drive.google.com/file/d/1-IS-bxvaf1cddKq1BjylBbvUqT_VjOmR/view?usp=drive_link",
   },
   {
     id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "https://ia902304.us.archive.org/9/items/excellence-technology-logo/Excellence%20Technology%20Logo.jpeg",
     role: "Web Development",
     company: "Excellence Technology",
     date: "June 2024 - July 2024",
-    desc: "During my tenure as a Full Stack Web Development Intern at Coding Raja, I spearheaded the development and honed my skills in both front-end and back-end technologies. This role allowed me to deepen my expertise in React.js, along with various other programming languages, and apply my knowledge to create robust, user-centric solutions.",
+    desc: "During my tenure as a Full Stack Web Development Intern at Excellence Technology, I spearheaded the development and honed my skills in both front-end and back-end technologies. This role allowed me to deepen my expertise in React.js, along with various other programming languages, and apply my knowledge to create robust, user-centric solutions.",
     skills: ["HTML", "CSS", "ReactJs", "Node JS", "Express JS", "MongoDB"],
   },
 

@@ -1,6 +1,13 @@
 import React from "react";
 import { experiences } from "../../data/data";
 import styled from "styled-components";
+import Timeline from "@mui/lab/Timeline";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import TimelineDot from "@mui/lab/TimelineDot";
+import TimelineConnector from "@mui/lab/TimelineConnector";
+import TimelineContent from "@mui/lab/TimelineContent";
+import ExperienceCard from "../Cards/ExperienceCard";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -55,13 +62,8 @@ const TimelineSection = styled.div`
   justify-content: center;
   gap: 12px;
 `;
-const Timeline = styled.div``;
-const TimelineItem = styled.div``;
-const TimelineSeparator = styled.div``;
-const TimelineDot = styled.div``;
-const TimelineConnector = styled.div``;
-const TimelineContent = styled.div``;
-const ExperienceCard = styled.div``;
+
+//const TimelineContent = styled.div``;
 
 const Experience = () => {
   return (
@@ -79,7 +81,8 @@ const Experience = () => {
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
                   {index !== experiences.length - 1 && (
-                    <TimelineConnector style={{ background: "#854CE6" }} />
+                    <TimelineConnector />
+                    // <TimelineConnector style={{ background: "#854CE6" }} />
                   )}
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
