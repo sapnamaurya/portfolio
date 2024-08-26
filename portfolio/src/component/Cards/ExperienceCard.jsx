@@ -125,9 +125,9 @@ const Skills = styled.div`
 `;
 
 const ItemWrapper = styled.div`
-  // display: flex;
-  // flex-wrap: wrap;
-  // gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 `;
 
 const Skill = styled.div`

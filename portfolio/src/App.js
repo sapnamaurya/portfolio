@@ -8,6 +8,7 @@ import Education from "./component/Education";
 import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./component/Navbar";
 import Experience from "./component/Experience";
+import Project from "./component/Project";
 //import Experience from "./component/Experience";
 
 const Body = styled.div`
@@ -41,6 +42,7 @@ function App() {
           <Wrapper>
             <Skills />
             <Experience />
+            <Project />
             <Education />
           </Wrapper>
         </Body>
