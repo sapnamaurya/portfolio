@@ -244,8 +244,8 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
+    img: "https://gndec.ac.in/sae/img/logo.png",
+    school: "Guru Nanak Dev Engineering College,Ludhiana",
     date: "Aug 2022 - june 2026",
     grade: "8.24 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Guru Nanak Dev Engineering College , Ludhiana. I have completed 4 semesters and have a CGPA of 8.24. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
@@ -253,7 +253,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "	https://freesvg.org/storage/img/thumb/LOGO_CSG.png",
     school: "Teja Singh Sutantar Memorial Senior Secondary School,Ludhiana",
     date: "March 2021 - May 2022",
     grade: "92.4 %",
@@ -262,7 +262,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "	https://freesvg.org/storage/img/thumb/LOGO_CSG.png",
     school: "Methodist School, Dankuni",
     date: "March 2019 - May 2020",
     grade: "A+",

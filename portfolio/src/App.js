@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./component/Navbar";
 import Experience from "./component/Experience";
 import Project from "./component/Project";
+import Contact from "./component/Contact";
 //import Experience from "./component/Experience";
 
 const Body = styled.div`
@@ -42,8 +43,11 @@ function App() {
           <Wrapper>
             <Skills />
             <Experience />
-            <Project />
+          </Wrapper>
+          <Project />
+          <Wrapper>
             <Education />
+            <Contact />
           </Wrapper>
         </Body>
       </Router>
