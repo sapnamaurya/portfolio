@@ -4,6 +4,7 @@ import { Bio } from "../../data/data";
 import HeroBgAnimation from "../HeroBgAnimation";
 import Typewriter from "typewriter-effect";
 import HeroImg from "../../assest/images/sapu img.png";
+
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;

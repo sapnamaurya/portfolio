@@ -1,3 +1,4 @@
+import { ButtonGroup } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 
@@ -134,11 +135,11 @@ const ProjectCards = ({ project, setOpenModal }) => {
         <Date>{project.date}</Date>
         <Description>{project.description}</Description>
       </Details>
-      <Members>
+      {/* <Members>
         {project.member?.map((member) => (
           <Avatar src={member.img} />
         ))}
-      </Members>
+      </Members> */}
       {/* <Button>View Project</Button> */}
     </Card>
   );
