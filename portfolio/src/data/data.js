@@ -273,7 +273,34 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 0,
+    title: "Guidely webpage",
+    date: "Jun 2023 - Aug 2023",
+    description:
+      "Designed and developed the Guidely webpage, it is a responsive and a static webpage made by html css",
+    image:
+      "https://www.techmagic.co/blog/content/images/2024/02/cover-Discovery-phase-1.png",
+    tags: ["HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/sapnamaurya/project-guidely-webspage-about-",
+    webapp: "https://sapna-guidely.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Spotify Clone",
+    date: "Aug 2023 - Nov 2023",
+    description:
+      "A Spotify Clone is a music streaming platform designed to replicate the features and functionalities of the popular music service, Spotify.",
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/207366157979253.63836b4a95516.png",
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "web app",
+    github: "https://github.com/sapnamaurya/spotify-clone",
+    webapp: "https://sapna-spotify.netlify.app/",
+  },
+
+  {
+    id: 2,
     title: "Daily Karts",
     date: "Nov 2023 - Jan 2024",
     description:
@@ -286,41 +313,8 @@ export const projects = [
     webapp: "https://dailykartss.netlify.app",
   },
   {
-    id: 0,
-    title: "Spotify Clone",
-    date: "Aug 2023 - Nov 2023",
-    description:
-      "A Spotify Clone is a music streaming platform designed to replicate the features and functionalities of the popular music service, Spotify.",
-    image:
-      "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/207366157979253.63836b4a95516.png",
-    tags: ["HTML", "CSS", "Javascript"],
-    category: "web app",
-    github: "https://github.com/sapnamaurya/spotify-clone",
-    webapp: "https://sapna-spotify.netlify.app/",
-  },
-  {
-    id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
-    description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
-  },
-  {
     id: 2,
-    title: "Brain Tumor Detection",
+    title: "Calculator",
     date: "Jan 2023 - Mar 2023",
     description:
       "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
@@ -328,8 +322,8 @@ export const projects = [
       "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
+    github: "https://github.com/sapnamaurya/calculator",
+    webapp: "https://sapnacalculator.netlify.app/",
     member: [
       {
         name: "Rishav Chanda",
@@ -347,7 +341,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Buckoid",
+    title: "Tic Tac Toe",
     date: "Dec 2021 - Apr 2022",
     description:
       "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
@@ -355,7 +349,7 @@ export const projects = [
       "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
     tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
     category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
+    github: "https://github.com/sapnamaurya/tic-tac-toe",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
   {

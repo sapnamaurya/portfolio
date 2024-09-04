@@ -2,19 +2,19 @@ import { ButtonGroup } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 
-const Button = styled.button`
-  display: none;
-  width: 100%;
-  padding: 10px;
-  background-color: ${({ theme }) => theme.white};
-  color: ${({ theme }) => theme.text_black};
-  font-size: 14px;
-  font-weight: 700;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.8s ease-in-out;
-`;
+// const Button = styled.button`
+//   display: none;
+//   width: 100%;
+//   padding: 10px;
+//   background-color: ${({ theme }) => theme.white};
+//   color: ${({ theme }) => theme.text_black};
+//   font-size: 14px;
+//   font-weight: 700;
+//   border: none;
+//   border-radius: 10px;
+//   cursor: pointer;
+//   transition: all 0.8s ease-in-out;
+// `;
 const Card = styled.div`
   width: 330px;
   height: 490px;
@@ -32,9 +32,6 @@ const Card = styled.div`
     transform: translateY(-10px);
     box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
     filter: brightness(1.1);
-  }
-  &:hover ${Button} {
-    display: block;
   }
 `;
 
@@ -86,6 +83,7 @@ const Title = styled.div`
 
 const Date = styled.div`
   font-size: 12px;
+  margin-top: 10px;
   margin-left: 2px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_secondary + 80};
@@ -98,6 +96,8 @@ const Description = styled.div`
   font-weight: 400;
   color: ${({ theme }) => theme.text_secondary + 99};
   overflow: hidden;
+  height: 8vh;
+  font-size: 16px;
   margin-top: 8px;
   display: -webkit-box;
   max-width: 100%;
@@ -120,7 +120,23 @@ const Avatar = styled.img`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border: 3px solid ${({ theme }) => theme.card};
 `;
+const Button = styled.a`
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: ${({ theme }) => theme.primary};
+  padding: 2px 16px;
+  border-radius: 8px;
 
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.5s ease;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 12px;
+  }
+`;
 const ProjectCards = ({ project, setOpenModal }) => {
   return (
     <Card onClick={() => setOpenModal({ state: true, project: project })}>
@@ -140,7 +156,12 @@ const ProjectCards = ({ project, setOpenModal }) => {
           <Avatar src={member.img} />
         ))}
       </Members> */}
-      {/* <Button>View Project</Button> */}
+      <Button href={project.github} target="_blank">
+        View Code
+      </Button>
+      <Button href={project.webapp} target="_blank">
+        View Live App
+      </Button>
     </Card>
   );
 };
