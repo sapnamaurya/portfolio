@@ -1,7 +1,7 @@
 import "./App.css";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./Things/themes";
-
+import ProjectDetails from "./component/ProjectDetails";
 import Home from "./component/Home";
 import Skills from "./component/Skills";
 import Education from "./component/Education";
@@ -11,6 +11,7 @@ import Experience from "./component/Experience";
 import Project from "./component/Project";
 import Contact from "./component/Contact";
 import { useState } from "react";
+import Footer from "./component/Footer";
 //import Experience from "./component/Experience";
 
 const Body = styled.div`
@@ -48,7 +49,7 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
-          {/* <Project openModal={openModal} setOpenModal={setOpenModal} /> */}
+
           <Wrapper>
             <Project openModal={openModal} setOpenModal={setOpenModal} />
           </Wrapper>
@@ -56,6 +57,10 @@ function App() {
             <Education />
             <Contact />
           </Wrapper>
+          <Footer />
+          {openModal.state && (
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
         </Body>
       </Router>
     </ThemeProvider>

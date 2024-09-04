@@ -178,47 +178,6 @@ const index = ({ openModal, setOpenModal }) => {
             ))}
           </Tags>
           <Desc>{project?.description}</Desc>
-          <Button dull href={project?.github} target="new">
-            View code
-          </Button>
-          {/* {project.member && (
-            <>
-              <Label>Members</Label>
-              <Members>
-                {project?.member.map((member) => (
-                  <Member>
-                    <MemberImage src={member.img} />
-                    <MemberName>{member.name}</MemberName>
-                    <a
-                      href={member.github}
-                      target="new"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <GitHub />
-                    </a>
-                    <a
-                      href={member.linkedin}
-                      target="new"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <LinkedIn />
-                    </a>
-                  </Member>
-                ))}
-              </Members>
-            </>
-          )} */}
-          {/* <ButtonGroup> */}
-          {/* <Button dull href={project?.github} target="new">
-              View Code
-            </Button> */}
-          <a>View code</a>
-          {/* <Button href={project?.webapp} target="new">
-
-              View Live App
-            </Button> */}
-          <Button>View code</Button>
-          {/* </ButtonGroup> */}
         </Wrapper>
       </Container>
     </Modal>
