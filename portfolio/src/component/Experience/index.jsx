@@ -14,7 +14,7 @@ const Container = styled.div`
   justify-content: center;
   position: relative;
   z-index: 1;
-  height: 180vh;
+  height: 197vh;
   align-items: center;
 `;
 
